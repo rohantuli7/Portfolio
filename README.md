@@ -1,8 +1,8 @@
 # Rohan Tuli's portfolio website.
 
-Redesigned from [Brittany Chiang's concept.](https://github.com/bchiang7/v4).
+Redesigned from [Brittany Chiang's outline](https://github.com/bchiang7/v4).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5319b875-f6d5-42ff-ac72-a2287b006ae7/deploy-status)](https://app.netlify.com/sites/rohantuli/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6ef2f52-8f89-4efc-95d2-d0655606fa7d/deploy-status)](https://app.netlify.com/sites/rohantuli/deploys)
 
 ![demo](https://github.com/rohantuli7/PortfolioWebsite/blob/main/static/og.png)
 
