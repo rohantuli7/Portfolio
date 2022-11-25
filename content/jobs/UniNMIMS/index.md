@@ -1,7 +1,7 @@
 ---
 date: '2021-10-02'
 title: 'Researcher'
-company: 'NMIMS University'
+company: 'NMIMS'
 location: 'Remote'
 range: 'October 2021 - March 2022'
 url: 'https://engineering.nmims.edu/'
