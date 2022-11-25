@@ -2,7 +2,7 @@
 
 Redesigned from [Brittany Chiang's concept.](https://github.com/bchiang7/v4).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8cec344c-a987-4f08-bb69-5163bfd0dd4b/deploy-status)](https://app.netlify.com/sites/rohantuli/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5319b875-f6d5-42ff-ac72-a2287b006ae7/deploy-status)](https://app.netlify.com/sites/rohantuli/deploys)
 
 ![demo](https://github.com/rohantuli7/PortfolioWebsite/blob/main/static/og.png)
 
