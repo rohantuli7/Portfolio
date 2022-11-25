@@ -68,7 +68,7 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
+  const [githubInfo] = useState({
     stars: null,
     forks: null,
   });
@@ -81,10 +81,10 @@ const Footer = () => {
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
+        // setGitHubInfo({
+        //   stars: stargazers_count,
+        //   forks: forks_count,
+        // });
       })
       .catch(e => console.error(e));
   }, []);
@@ -108,7 +108,7 @@ const Footer = () => {
         <a href="https://github.com/bchiang7/v4">
           <div>Redesigned by Rohan Tuli</div>
           <div>Built by Brittany Chiang</div>
-
+          </a>
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
@@ -121,7 +121,7 @@ const Footer = () => {
               </span>
             </div>
           )}
-        </a>
+        
       </StyledCredit>
     </StyledFooter>
   );
