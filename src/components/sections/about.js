@@ -27,7 +27,7 @@ const StyledText = styled.div`
     margin: 20px 0 0 0;
     overflow: hidden;
     list-style: none;
-    color:rgb(0, 210, 300);
+    color: rgb(0, 210, 300);
 
     li {
       position: relative;
@@ -126,8 +126,30 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ["Data Analytics", "Machine Learning", "Deep Learning", "Image Processing", "Medical Image Processing", "SCRUM & Agile"];
-  const frameworks = ["Python", "C++", "Java", "SQL & NoSQL", "PyTorch", "TensorFlow & Keras", "MATLAB","NLTK", "HuggingFace", "SciPy", "SAS", "AWS", "PyDicom", "NiBabel"];
+  const skills = [
+    'Data Analytics',
+    'Machine Learning',
+    'Deep Learning',
+    'Image Processing',
+    'Medical Image Processing',
+    'SCRUM & Agile',
+  ];
+  const frameworks = [
+    'Python',
+    'C++',
+    'Java',
+    'SQL & NoSQL',
+    'PyTorch',
+    'TensorFlow & Keras',
+    'MATLAB',
+    'NLTK',
+    'HuggingFace',
+    'SciPy',
+    'SAS',
+    'AWS',
+    'PyDicom',
+    'NiBabel',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -137,10 +159,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a Computer Engineer from India with experience in Machine Learning, Software Engineering and Data Analytics.
-            <br></br>
-            <br></br>
-            I have recently completed my Masters degree in Artificial Intelligence and Adaptive Systems from the University of Sussex, United Kingdom.
+              I'm a Computer Engineer from India with experience in Machine Learning, Software
+              Engineering and Data Analytics.
+              <br></br>
+              <br></br>I have recently completed my Masters degree in Artificial Intelligence and
+              Adaptive Systems from the University of Sussex, United Kingdom.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -149,13 +172,10 @@ const About = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
           <br></br>
-          <p>
-          These are the programming languages and frameworks known by me.
-          </p>
+          <p>These are the programming languages and frameworks known by me.</p>
           <ul className="skills-list">
             {frameworks && frameworks.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
-          
         </StyledText>
 
         <StyledPic>

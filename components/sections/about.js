@@ -149,6 +149,7 @@ const About = () => {
     'AWS',
     'PyDicom',
     'NiBabel',
+    'Dockers',
   ];
 
   return (
@@ -159,11 +160,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a Computer Engineer from India with experience in Machine Learning, Software
-              Engineering and Data Analytics.
+              I'm a Computer Engineer with experience in Machine Learning, Software Engineering and
+              Data Analytics.
               <br></br>
-              <br></br>I have recently completed my Masters degree in Artificial Intelligence and
-              Adaptive Systems from the University of Sussex, United Kingdom.
+              <br></br>I'm currently working as a Computer Vision Research Assistant at University
+              of Sussex in collaboration with Emteq Labs. I hold a masters degree in Artificial
+              Intelligence and undergraduate degree in Computer Engineering.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

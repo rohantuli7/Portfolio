@@ -60,13 +60,16 @@ const Hero = () => {
 
   const one = <h1>Hi! I am</h1>;
   const two = <h2 className="big-heading">Rohan Tuli.</h2>;
-  const three = <h3 className="big-heading">I'm a Data and Software enthusiast.</h3>;
+  const three = <h3 className="big-heading">I'm a Data and Machine Learning enthusiast.</h3>;
   const four = (
     <>
       <p>
-        I'm a Computer Engineer from India with experience in Machine Learning, Software Engineering and Data Analytics.
-        <br></br><br></br>
-        I have recently completed my Masters degree in Artificial Intelligence and Adaptive Systems from the University of Sussex, United Kingdom.
+        Computer Engineer with experience in Machine Learning, Software Engineering and Data
+        Science.
+        <br></br>
+        <br></br>
+        Currently working as a Computer Vision Research Assistant at University of Sussex.
+        {/* I have recently completed my Masters degree in Artificial Intelligence and Adaptive Systems from the University of Sussex, United Kingdom. */}
       </p>
     </>
   );

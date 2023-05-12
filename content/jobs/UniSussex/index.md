@@ -1,7 +1,7 @@
 ---
 date: '2021-10-01'
 title: 'Teaching Assistant'
-company: 'Sussex Uni'
+company: 'Sussex University'
 location: 'Brighton, United Kingdom'
 range: 'October 2021 - January 2022'
 url: 'https://www.sussex.ac.uk/'
